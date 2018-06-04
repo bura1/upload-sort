@@ -1,0 +1,66 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 30px 40px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-right: 20px;
+    background-color: #fff;
+}
+
+.us-list {
+	display: inline-block;
+    padding-bottom: 15px;
+}
+
+.user-box {
+	width: 130px;
+	float: left;
+}
+
+.stats-table {
+    text-align: left;
+    width: 100%;
+}
+.stats-table td {
+    /*padding-right: 30px;*/
+}
+.stats-table tr th {
+    background-color: #eee;
+}

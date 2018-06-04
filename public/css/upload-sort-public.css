@@ -1,0 +1,23 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.table-name th {
+	padding: 3px;
+}
+.table-header {
+    background-color: #eee;
+}
+.table-header th {
+	padding: 3px;
+}
+.us-table {
+	border: 1px solid #eee;
+}
+.table-row {
+	border-bottom: 1px solid #eee;
+}
+.table-row td {
+	padding: 3px;
+}
